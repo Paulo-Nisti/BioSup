@@ -48,8 +48,8 @@ i {
 }
 
 .header-button:hover {
-  border: 1px solid #d34040;
-  background-color: #d34040;
+  border: 1px solid #19a4b6;
+  background-color: #19a4b6;
 }
 
 .header-logo {
@@ -101,7 +101,7 @@ i {
   content: "";
   display: block;
   position: absolute;
-  background-image: linear-gradient(to bottom, rgba(6, 18, 30, 0.1), #06121e), url("../assets/bg.svg");
+  background-image: linear-gradient(to bottom, rgba(6, 18, 30, 0.6), #06121e), url("./assets/02-791763.jpg");
   left: 0;
   top: 0;
   width: 100%;
