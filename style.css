@@ -217,6 +217,9 @@ i {
   justify-content: center;
   padding: 54px 14px;
 }
+.services h2{
+    font-size: 38px;
+}
 
 .services-content h2 {
   text-transform: uppercase;
