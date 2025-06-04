@@ -101,7 +101,7 @@ i {
   content: "";
   display: block;
   position: absolute;
-  background-image: linear-gradient(to bottom, rgba(6, 18, 30, 0.6), #06121e), url("./assets/02-791763.jpg");
+  background-image: linear-gradient(to bottom, rgba(6, 18, 30, 0.1), #06121e), url("./assets/02-791763.jpg");
   left: 0;
   top: 0;
   width: 100%;
@@ -126,11 +126,12 @@ i {
   text-align: center;
   line-height: 150%;
   max-width: 940px;
-  font-size: 46px;
+  font-size: 55px;
 }
 .hero p {
   text-align: center;
   margin: 14px 0;
+  font-size: 18px;
 }
 
 .button-contact {
@@ -187,7 +188,7 @@ i {
   padding: 34px 14px 64px 14px;
 }
 .about-content img {
-  width: 650px;
+  max-width: 500px;
 }
 
 .about-content div {
@@ -201,6 +202,7 @@ i {
 .about-description p {
   margin-bottom: 14px;
   line-height: 150%;
+  font-size: 17px;
 }
 
 @media screen and (max-width: 768px) {
@@ -233,9 +235,10 @@ i {
   margin-bottom: 14px;
   text-align: center;
   max-width: 780px;
+  font-size: 18px;
 }
 
-.haircuts {
+.paineis {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -243,7 +246,7 @@ i {
   padding: 0 44px 34px 44px;
 }
 
-.haircut {
+.painel {
   flex: 1;
   display: flex;
   flex-direction: column;
@@ -252,18 +255,18 @@ i {
   box-shadow: 0px -1px 17px -4px rgba(0, 0, 0, 0.45);
   overflow: hidden;
 }
-.haircut img {
+.painel img {
   width: 100%;
   max-width: 354px;
   transition: transform 0.2s;
 }
 
-.haircut img:hover {
+.painel img:hover {
   transform: scale(1.2);
   z-index: 1;
 }
 
-.haircut-info {
+.painel-info {
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -272,7 +275,7 @@ i {
   z-index: 99;
 }
 
-.haircut-info button {
+.painel-info button {
   color: #FFF;
   background-color: #d94140;
   padding: 4px 8px;
@@ -282,10 +285,10 @@ i {
 }
 
 @media screen and (max-width: 768px) {
-  .haircuts {
+  .paineis {
     flex-direction: column;
   }
-  .haircut img {
+  .painel img {
     max-width: 740px;
   }
 }
