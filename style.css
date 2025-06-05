@@ -27,7 +27,7 @@ i {
 
 .header-icons a:hover i {
   animation: translateY 0.5s infinite alternate;
-  color: #19a4b6;
+  color: #bba909;
 }
 
 @keyframes translateY {
@@ -48,8 +48,8 @@ i {
 }
 
 .header-button:hover {
-  border: 1px solid #19a4b6;
-  background-color: #19a4b6;
+  border: 1px solid #ccb806;
+  background-color: #bba909;
 }
 
 .header-logo {
@@ -137,7 +137,7 @@ i {
 .button-contact {
   padding: 14px 28px;
   color: #FFF;
-  background-color: #d94140;
+  background-color: #bba909;
   border: 0;
   font-size: 18px;
   font-weight: 600;
@@ -257,9 +257,10 @@ i {
 }
 .painel img {
   width: 100%;
-  max-width: 354px;
+  max-width: 360px;
   transition: transform 0.2s;
   aspect-ratio: 1/1;
+  object-fit: cover;
 }
 
 .painel img:hover {
@@ -278,7 +279,7 @@ i {
 
 .painel-info a {
   color: #FFF;
-  background-color: #d94140;
+  background-color: #bba909;
   padding: 4px 8px;
   border-radius: 4px;
   border: 0;
@@ -308,6 +309,11 @@ i {
   display: flex;
   gap: 8px;
   color: #FFF;
+}
+
+.footer-icons a:hover i {
+  animation: translateY 0.5s infinite alternate;
+  color: #bba909;
 }
 
 .btn-whatsapp {
