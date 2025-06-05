@@ -184,6 +184,16 @@ i {
   .hero h1 {
     font-size: 24px;
   }
+
+  .button-contact {
+  padding: 10px 15px;
+  color: #FFF;
+  background-color: #bba909;
+  border: 0;
+  font-size: 18px;
+  font-weight: 600;
+  margin: 10px 0;
+}
 }
 .about {
   background-color: #06121e;
