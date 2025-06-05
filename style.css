@@ -168,6 +168,17 @@ i {
   .hero p {
     font-size: 14px;
   }
+  
+.button-contact {
+  padding: 14px 20px;
+  color: #FFF;
+  background-color: #bba909;
+  border: 0;
+  font-size: 18px;
+  font-weight: 600;
+  margin: 10px 0;
+}
+
 }
 @media screen and (max-width: 480px) {
   .hero h1 {
